@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;800&family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fondo: #1f2023;
+    --verde: #4d6d63;
+    --form: #d6e2de;
+    --form-activo: #a6c1b9; 
+    --verde-oscuro: #2B3D37;
+    --white: #fff;
+}
+
+body {
+    background-color: var(--fondo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    width: 700px;
+    padding: 5px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--white);
+    border-top: solid 15px var(--verde);
+    border-bottom: solid 15px var(--verde);
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+legend {
+    background-color: var(--verde);
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+
+    background-color: var(--form);
+    border-color: var(--verde);
+    width: 700px;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 20px 30px 20px;
+}
+
+select {
+    color: grey;
+}
+
+form fieldset:last-of-type {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+fieldset p:first-of-type {
+    font-size: 12px;
+}
+
+fieldset p {
+    padding: 10px 0px;
+}
+
+input, select, textarea {
+    width: 70%;
+    border-radius: 4px;
+    padding: 3px;
+    border: 1px solid var(--verde);
+}
+
+textarea {
+    height: 8em;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: unset;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 700px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--white);
+}
+
+
+.final p {
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.final label{
+    padding: 0;
+}
+
+.botones {
+    align-self: center;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: var(--verde-oscuro);
+    color: var(--form-activo);
+    border: solid 1px var(--form-activo);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: var(--form-activo);
+    color: var(--verde-oscuro);
+    border: solid 2px var(--verde-oscuro);
+}
+
+fieldset:focus-within {
+    background-color: var(--form-activo);
+}
+
+input:focus, textarea:focus {
+    background-color: var(--verde);
+    color: var(--white);
+}
+
+.linea {
+    width: 35%;
+    border-top: dotted 15px var(--form-activo);
+
+}
