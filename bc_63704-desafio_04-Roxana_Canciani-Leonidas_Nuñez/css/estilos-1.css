@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E11364;
+    font-family: sans-serif;
+}
+
+.estructura {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.back-color-1 {
+    background-color: #BC105C;
+}
+
+#titulo {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-left: solid 4px;
+    border-right: solid 4px;
+    border-color: white;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.separacion-lat {
+    width: 98%;
+    margin: auto;
+}
+
+h2 {
+    color: white;
+}
+
+article {
+    background-color: white;
+    margin: 20px 10px;
+    padding-bottom: 10px;
+}
+
+main {
+    padding-bottom: 10px;
+}
+
+.img {
+    padding-top: 15px;
+    display: block;
+}
+
+.subtitulo {
+    font-size: 17px;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: white;
+}
+
+.nom-juego {
+    color: #BC105C;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 12px;
+    /* border-bottom: dotted; */
+}
+
+.parrafos-a {
+    color: black;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.parrafos-b {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.parraf {
+    margin: 10px 0;
+}
+
+.final {
+    background-color: #E96093;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.final-2 {
+    background-color: #E96093;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.boton {
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #2C8F20;
+}
+
+.boton-2 {
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #2C8F20;
+}
+
+.boton:hover {
+    background-color: #BC105C;
+}
+
+.borde {
+    border-radius: 10px;
+}
+
+.volver {
+    color: white;
+}
+
+.volver:hover {
+    color: #2C8F20;
+}
+
+li {
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.sep-2 {
+    margin: 10px 5px;
+}
+
+.logo-1-a {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+.logo-1-b {
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding-top: 20px;
+}
+
+.logo-2 {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+hr {
+    border-style: dashed;
+    color: #BC105C;
+}

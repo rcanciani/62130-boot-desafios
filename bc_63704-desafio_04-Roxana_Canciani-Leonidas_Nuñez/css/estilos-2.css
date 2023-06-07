@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#titulo {
+    padding: 50px;
+    background-image: url('../img/fondo_estrellas.gif');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background: repeating-linear-gradient(45deg, transparent, transparent 35px, #F1F6F9 35px, #9BA4B5 70px), repeating-linear-gradient(-45deg, transparent, transparent 35px, #F1F6F9 35px, #9BA4B5 70px);
+}
+
+h1 {
+    margin: 0 30%;
+    font-size: 35px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 7%;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.nom-juego {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.img {
+    margin-top: 15px;
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    border-style: solid;
+}
+
+.parrafos-a {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.parraf {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.boton {
+    display: block;
+    margin: 15px 20%;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 10px;
+    padding: 14px 0;
+}
+
+.boton:hover {
+    background-image: url('../img/fondo_estrellas.gif');
+    background-size: contain;
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 25px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+hr {
+    color: red;
+    border-style: solid;
+    margin: 0 30%;
+}
+
+.final {
+    background-image: url('../img/fondo_estrellas.gif');
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 15px;
+}
